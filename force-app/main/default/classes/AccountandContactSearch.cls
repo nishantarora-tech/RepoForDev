@@ -17,7 +17,7 @@ public class AccountandContactSearch{
             ApexPages.Message apexMessage11 = new ApexPages.Message(ApexPages.Severity.Info, 'Your Search did not find any item');
             ApexPages.addMessage(apexMessage11);
             str = False; 
-               
+            
         }
         else{
             str = True;
